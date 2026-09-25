@@ -56,6 +56,7 @@ namespace _09_25_2
 
         private void btnUres_Click(object sender, RoutedEventArgs e)
         {
+            if (MessageBox.Show("Biztos törölni akarod?", "Figyelem!", MessageBoxButton.YesNo, MessageBoxImage.Warning) == MessageBoxResult.Yes)
             lbLista.Items.Clear();
         }
 

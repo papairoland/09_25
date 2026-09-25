@@ -32,7 +32,7 @@
         <Button x:Name="btnUres" Content="Üres lista" Height="30" Margin="20" Grid.Row="4" Grid.Column="2" VerticalAlignment="Top" Click="btnUres_Click"/>
         <Button x:Name="btnBetoltes" Content="Betöltés" Height="30" Margin="20" Grid.Row="4" Grid.Column="2" Click="btnBetoltes_Click"/>
         <Button x:Name="btnElmentes" Content="Elmentés" Height="30" Margin="20" Grid.Row="4" Grid.Column="2" VerticalAlignment="Bottom" Click="btnElmentes_Click"/>
-        <ListBox x:Name="lbLista" Grid.Row="4" Grid.ColumnSpan="2" Margin="10" MouseDoubleClick="lbLista_MouseDoubleClick"/>
+        <ListBox x:Name="lbLista" Grid.Row="4" Grid.ColumnSpan="2" Margin="10" Background="PeachPuff" BorderBrush="Brown" BorderThickness="1.5" MouseDoubleClick="lbLista_MouseDoubleClick"/>
         <Rectangle x:Name="rctTeglalap" Grid.Row="3" Grid.ColumnSpan="2" Fill="Black" Margin="10"/>
     </Grid>
 </Window>
